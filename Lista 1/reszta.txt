@@ -1,0 +1,6 @@
+LISTA 1
+
+Zadanie 1:
+Z google chrome korzystam najczęściej jako przeglądarki, wciskając F12 i przechodząc do konsoli można pisać i uruchamiać kod w JS. 
+Po wpisaniu komendy node -v otrzymuję informację zwrotną "v18.18.2".
+Z VSC korzystam na co dzień przy porgramowaniu, na zrzutach ekranu widać edytor.
