@@ -1,0 +1,13 @@
+Podejście polegające na wykorzystaniu:
+Worker.prototype = Object.create( Person.prototype );
+w odróżnieniu od poniższych, prototypem Worker zostaje tutaj nowy obiekt będący kopią prototypu Person. 
+Nowy obiekt nie jest związany z prototypem Person poza jednorazowym (przy tworzeniu) skopiowaniem wszystkich własności.
+O to nam chodziło.
+
+Worker.prototype = Person.prototype;
+przypisuje portotyp obiektu Person prototypowi obiektu Worker. Każda zmiana w prototypie Worker zmienia 
+prototyp Person i vice versa.
+
+Worker.prototype = new Person();
+tworzy nową instancję Person wiążąc prototyp z obiektem Worker. W tym podejściu można dynamicznie zmieniać
+właściwości obiektu dziedziczącego poprzez zmiany w "klasie". Niekoniecznie jest to pożądane. 
