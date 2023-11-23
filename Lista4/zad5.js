@@ -9,4 +9,4 @@ function Foo(){
 }
 let example = new Foo()
 example.Bar()
-// example.Qux() not a function
+// example.Qux() 
